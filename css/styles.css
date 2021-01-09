@@ -163,6 +163,9 @@ h4 {
 	font-size: 130%;
 	border-radius: 0px;
 	border-bottom: 1px #45a29e;
+	border-top: 5px #45a29e;
+	padding-top: 5px #45a29e;
+	margin-top: 0;
 }
 
 .popover-body {
@@ -176,11 +179,10 @@ h4 {
 	background: #212529;
 }
 
-.popover-arrow::before {
-  border-top-color: red;
-  border-right-color: red;
-  border-left-color: red;  
-  border-bottom-color: red;
+
+.popover-arrow::after {
+  border-top-color: #45a29e !important; 
+  border-bottom-color: #45a29e !important;
 }
 
 hr {
@@ -260,4 +262,10 @@ hr {
 .fa-github {
   background: gray;
   color: white;
+}
+
+.custom {
+	background-color: black;
+	color: #c5c6c7;
+	margin-top: 10px;
 }
