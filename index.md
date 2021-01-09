@@ -1,39 +1,54 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/rjillala/test/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-Is this working
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/rjillala/test/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<!DOCTYPE html>
+<html lang = "en">
+  <head>
+	<meta charset = "utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content = "width=device-width, initial-scale = 1">
+	<title>Ritvik Jillala</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=BioRhyme:wght@300;400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<!--link to style sheet-->
+  </head>
+<body>
+	<script src="js/jquery-3.5.1.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/script.js"></script>
+	<header>
+		<nav id = "header-nav" class="navbar navbar-expand-md">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="home.html">
+					<img src="images/profesh.jpeg" class = "rounded-circle" alt ="me" width = "150" height = "150"> 
+				</a>
+				<button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+			        <span class="navbar-toggler-icon"></span>
+			    </button>
+			    <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+			      <div class="navbar-nav">
+			        <a class="nav-link" href="about.html">About</a>
+			        <a class="nav-link" href="projects.html">Projects</a>
+			        <a class="nav-link" href="resume.html">Resume</a>
+			        <a class="nav-link" href="connect.html">Connect</a>
+			      </div>
+			    </div>
+			</div>
+		</nav>
+	</header>
+	<div id = "overall">
+		<div class=container-fluid>
+			<h2>
+				Welcome!
+			</h2>
+		</div>
+		<div class=container-fluid id="main-description">
+			just some facts about an indecisive premed computer science student
+		</div>
+		<div class=container-fluid>
+			<h1 id="name">
+				Ritvik Jillala
+			</h1>
+		</div>
+	</div>
+</body>
+</html>
