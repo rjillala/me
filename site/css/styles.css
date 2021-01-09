@@ -1,0 +1,265 @@
+body {
+	font-size: 16px;
+	color: #c5c6c7;
+	background-color: #000000;
+	font-family: 'BioRhyme', serif;
+}
+
+#header-nav {
+	background-color: black;
+	border-radius: 0;
+	border: 0;
+	font-family: 'BioRhyme', serif;
+}
+
+button.navbar-toggler {
+	border: 3px solid #45a29e;
+}
+
+.nav-link {
+	color: #66fcf1;
+	font-family: 'BioRhyme', serif;
+	font-size: 150%;
+	font: bold;
+	text-align: center;
+	margin-right: 12px;
+}
+
+.nav-link:hover {
+	color: white;
+  	background-color: #45a29e;
+  	border: 2px solid;
+  	border-radius: 0.25rem;
+  	border-color: white;
+}
+
+.abouts {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	border: 5px solid #45a29e;
+	border-radius: 3rem;
+	background: black;
+	max-width: 1200px;
+}
+
+.pics {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.descriptions {
+	text-align: center;
+}
+
+h2 {
+	font-size: 500%;
+	color: #66fcf1;
+	text-align: center;
+	vertical-align: center;
+	margin-bottom: 2%;
+}
+
+h5 {
+	font-size: 400%;
+	color: #c5c6c7;
+	text-align: center;
+	vertical-align: center;
+	margin-bottom: 2%;
+}
+
+h3 {
+	color: #45a29e;
+}
+
+#main-description {
+	font-size: 200%;
+	text-align: center;
+	vertical-align: center;
+	margin-top: 2%;
+	margin-bottom: 3%;
+}
+
+#name {
+	font-size: 350%;
+	color: #66fcf1;
+	text-align: center;
+	vertical-align: center;
+	margin-top: 3%;
+	margin-bottom: 5%;
+}
+
+#overall {
+	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);	
+}
+
+.project {
+	margin-left: auto;
+	margin-right: auto;
+	border: 4px solid #45a29e;
+	border-radius: 0.5rem;
+	max-width: 500px;
+}
+
+.project-header {
+	background-color: #45a29e;
+}
+
+.exp {
+	margin-left: auto;
+	margin-right: auto;
+	border: 4px solid #45a29e;
+	border-radius: 0.5rem;
+	max-width: 400px;
+	background-color: black;
+}
+
+.exp-header {
+	background-color: #45a29e;
+	padding-top: 1%;
+	padding-right: 1%;
+	padding-left: 1%;
+}
+
+h4 {
+	color: black;
+	vertical-align: center;
+	font: 'BioRhyme bold';
+	padding-top: 1%;
+}
+
+.custom-project {
+	margin-top: 2%;
+	align-content: center;
+}
+
+.circles {
+	width: 20vw;
+    height: 20vw;
+    margin-left: auto;
+	margin-right: auto;
+	border: 0px solid #45a29e;
+}
+
+#classroom-heading {
+	margin-top: 3%;
+	margin-bottom: 2%;
+}
+
+[tabindex] {
+   outline: none !important;
+}
+
+.popover-header {
+	background: #45a29e;
+	text-align: center;
+	color: black;
+	font-family: 'BioRhyme', serif;
+	font-size: 130%;
+	border-radius: 0px;
+	border-bottom: 1px #45a29e;
+}
+
+.popover-body {
+	text-align: center;
+	font-family: 'BioRhyme', serif;
+	color: #c5c6c7;
+}
+
+.popover {
+	border: 4px solid #45a29e;
+	background: #212529;
+}
+
+.popover-arrow::before {
+  border-top-color: red;
+  border-right-color: red;
+  border-left-color: red;  
+  border-bottom-color: red;
+}
+
+hr {
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	border: solid 2px;
+	border-color: #66fcf1;
+	border-radius: 5px
+}
+
+.orgs {
+	color: #1f2833;
+	margin-bottom: 2%;
+	font-size: 110%;
+}
+
+.skills {
+	background-color: #212529;
+	max-width: 400px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 125%;
+	border: 4px solid #45a29e;
+}
+
+.btn-primary {
+	background-color: #45a29e;
+	font-size: 130%;
+	border-color: #45a29e;
+	border-size: 2px;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+	background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-github {
+  background: gray;
+  color: white;
+}
