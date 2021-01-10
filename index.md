@@ -51,7 +51,7 @@
 			</h2>
 		</div>
 		<div class=container-fluid id="main-description">
-			just some facts about an indecisive premed computer science student
+			Innovation. Technology. Medicine.<br>Making Ideas Happen
 		</div>
 		<div class=container-fluid>
 			<h1 id="name">
